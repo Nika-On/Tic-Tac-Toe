@@ -11,6 +11,8 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 20px red, 0 0 40px red;
+  color: #fff;
 }
 .container {
   display: grid;
@@ -28,9 +30,7 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  color: #fff;
   font-size: 48px;
-  text-shadow: 0 0 20px red, 0 0 40px red;
   border: 2px solid #fff;
 }
 
